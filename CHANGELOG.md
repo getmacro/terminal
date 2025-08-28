@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.4.0
+
+- Added IDE integration for VS Code
+- Added auto-connect to IDE on extension installation
+- Added `/ide` command to manage IDE connections (list, connect, disconnect, and status)
+- Added tool for database administration (GRANT/REVOKE, CREATE/ALTER/DROP operations)
+- Improved dbt integration: converted to flags (`--dbt`, `--dbt-project`, `--dbt-profile`, `--dbt-target`)
+- Fixed Snowflake cross-database list operations (schemas, tables, columns now visible across databases)
+- Fixed Snowflake RSA key pair authentication
+- Fixed integer underflow panics in truncation calculations
+
 ## v0.3.0
 
 - Added Ctrl+R shortcut to expand truncated content in terminal output
