@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.5.1
+
+- Added IDE diagnostics integration: displays errors, warnings, and other diagnostics from connected IDEs in terminal
+- Improved dbt CLI flags for better usability:
+  - `--dbt` scans from the current working directory downward for dbt projects
+  - `--dbt-dir <project dir>` searches for a dbt project in the provided directory (replaces `--dbt-project` flag)
+  - `--dbt-env` loads environment variables from .env files before dbt connections
+- Improved POSIX shell environment to source rc files and preserve user shell customizations
+- Improved agentic data engine to prioritize remote execution in more scenarios
+
 ## v0.4.0
 
 - Added IDE integration for VS Code
