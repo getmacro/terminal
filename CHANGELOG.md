@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.6.0
+
+- Added ANSI Light and ANSI Dark themes
+- Added support for loading `dbt.environmentVariables` from VS Code and Cursor settings when running in IDE
+- Added startup messaging to display dbt configuration issues
+- Fixed dbt profile resolution for library projects that don't require a default profile
+
 ## v0.5.1
 
 - Added IDE diagnostics integration: displays errors, warnings, and other diagnostics from connected IDEs in terminal
